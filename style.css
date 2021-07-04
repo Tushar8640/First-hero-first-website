@@ -1,17 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 .hero_section{
     display: flex;
 }
+.hero-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
 section{
     margin-bottom: 200px;
-    margin: 40px;
+    margin: ;
 }
-
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
 .half_width{
     width: 50%;
+    margin: 40px;
 }
 img{
     width: 80%;
@@ -20,12 +32,15 @@ a{
     text-decoration: none;
     color: white;
     background: rgb(177, 115, 1);
-
+    margin-top: 40px;
 }
-
+p{
+    margin-bottom: 30px;
+}
 .btn{
     padding: 10px 30px;
     border-radius: 5px;
+    margin-top: ;
 }
 .two_part{
     display: flex;
@@ -48,4 +63,12 @@ a{
     border-left: 6px solid transparent;
     border-image: linear-gradient(tomato , blue);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: px;
 }
